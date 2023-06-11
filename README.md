@@ -5,7 +5,7 @@ View <i>build.gradle</i> for all dependencies.
 
 | Java Library + Version | CVE        |
 |------------------------|------------|
-| Log4j 2.15.0           | CVE-2021–44228<br/>CVE-2019-17571 |
+| Log4j 2.15.0           | CVE-2021–44228 |
 | Apache Tomcat 9.0.30         | CVE-2020-1938 <br/>CVE-2020-17527<br/>CVE-2020-13935 |
 | Scala Library 2.13.8          | CVE-2022-36944 |
 | Spring Framework 5.2.8         | CVE-2020-5421 |
