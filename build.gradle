@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.logging.log4j:log4j-core:2.15.0'
+    implementation 'org.apache.tomcat:tomcat:9.0.30'
+    implementation 'org.scala-lang:scala-library:2.13.8'
+    implementation 'org.webjars.bowergithub.jquery:jquery:3.3.1'
+    implementation 'org.apache.maven:apache-maven:3.3.1'
+    implementation 'org.springframework:spring-framework-bom:5.2.8.RELEASE'
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
