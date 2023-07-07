@@ -1,4 +1,4 @@
-# MergeBase 06/12/23: Vulnerable w/ Gradle
+# MergeBase LAST UPDATE 07/06/23: Vulnerable w/ Gradle
 ## Vulnerable Versions Tested Using Gradle
 Below are the Java libraries and versions used in this test application and which CVE's they are vulnerable to.
 View <i>build.gradle</i> for all dependencies.
