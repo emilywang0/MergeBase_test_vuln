@@ -11,3 +11,4 @@ View <i>build.gradle</i> for all dependencies.
 | Spring Framework 5.2.8         | CVE-2020-5421 |
 | Apache Maven 3.3.1           | CVE-2022-29599<br/>CVE-2021-26291 |
 | Logback 1.2.7         | CVE-2021-42550 |
+More dependencies affected by CVEs have been added. View Spreadsheet for full details.

@@ -10,15 +10,32 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.noear:solon-parent:2.2.5'
+//    compile group: 'com.oracle.database.jdbc', name: 'ojdbc8', version: '20'
+//    compile group: 'com.oracle.database.jdbc', name: 'ojdbc8', version: '19.0.1'
     implementation 'org.apache.logging.log4j:log4j-core:2.15.0'
     implementation 'org.apache.tomcat.embed:tomcat-embed-core:9.0.30'
     implementation 'org.scala-lang:scala-library:2.13.8'
     implementation 'org.apache.maven:apache-maven:3.3.1'
     implementation 'org.springframework:spring-context-support:5.2.8.RELEASE'
     implementation 'ch.qos.logback:logback-classic:1.2.7'
-
+    implementation 'commons-fileupload:commons-fileupload:1.4'
+    implementation 'com.google.guava:guava:31.1-android'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.1'
+    implementation 'org.apache.nifi:nifi:1.20.0'
+    implementation 'org.apache.tomcat:tomcat:11.0.0-M2'
+    implementation 'org.apache.tomcat:tomcat:11.0.0-M5'
+    implementation 'org.apache.logging.log4j:log4j:2.20.0'
+    implementation 'org.apache.kafka:kafka_2.11:2.4.1'
+    implementation 'org.xerial:sqlite-jdbc:3.40.1.0'
+    implementation 'com.graphql-java:graphql-java:20.0'
+    implementation 'io.oss84.geotools:geotools:24.2'
+    implementation 'org.xerial.snappy:snappy-java:1.1.9.1'
+    implementation 'org.eclipse.jetty:jetty-jaas:11.0.13'
+    implementation 'org.apache.logging.log4j:log4j:1.2.17'
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+
 }
 
 test {
